@@ -1,0 +1,12 @@
+App(
+    appid="base_converter",
+    name="Base Converter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="base_converter_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="1.0",
+    fap_icon="base_converter.png",
+    fap_description="BIN / OCT / DEC / HEX converter",
+    fap_author="M. Kuchin",
+)
